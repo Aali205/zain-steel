@@ -754,3 +754,20 @@ html[dir="rtl"] .stat-num, html[dir="rtl"] .tl-year, html[dir="rtl"] .step-num {
 
 /* static hosting: files can't be uploaded without a server */
 html[data-static] .file-field { display: none; }
+
+/* =========================================================
+   Content protection (see js/protect.js)
+   ========================================================= */
+html.protected body { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+html.protected input, html.protected textarea, html.protected select { -webkit-user-select: text; user-select: text; }
+html.protected img { -webkit-user-drag: none; user-drag: none; }
+html.shielded main, html.shielded .site-header, html.shielded .site-footer, html.shielded .wa-float { filter: blur(22px) brightness(.6); transition: none; }
+html.shielded body::after {
+  content: "Zain Steel"; position: fixed; inset: 0; z-index: 999; display: grid; place-items: center;
+  font-family: 'Orbitron', Arial, sans-serif; font-size: 42px; font-weight: 900; letter-spacing: .1em; color: rgba(255,255,255,.85);
+  background: rgba(6,8,12,.55); pointer-events: none;
+}
+@media print {
+  body * { display: none !important; }
+  body::before { content: "Printing is disabled for this website."; display: block; padding: 40px; font: 600 18px Arial, sans-serif; }
+}

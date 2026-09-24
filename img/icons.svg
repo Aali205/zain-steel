@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="laser" viewBox="0 0 48 48"><path d="M17 4h14v10H17zM20 14h8v6h-8zM22 20h4l-1 6h-2z"/><path d="M24 26v8" stroke-dasharray="2 2"/><path d="M6 42h36M24 36l-8 4M24 36l8 4M24 36l-12 1M24 36l12 1"/></symbol>
+  <symbol id="bending" viewBox="0 0 48 48"><path d="M19 4h10v9H19zM22 13h4v8h-4z"/><path d="M24 21l-4 4h8z" fill="currentColor"/><path d="M4 20l20 18 20-18"/><path d="M10 20l14 12 14-12"/></symbol>
+  <symbol id="trading" viewBox="0 0 48 48"><path d="M4 10h18M4 36h18M13 10v26M8 10v3M18 10v3M8 36v-3M18 36v-3"/><circle cx="28" cy="31" r="6"/><path d="M30 20h12v12H30z"/><path d="M34 24h4v4h-4z"/></symbol>
+  <symbol id="fabrication" viewBox="0 0 48 48"><path d="M26 22l12-12M34 6l8 8M38 10l-4-4"/><circle cx="24" cy="24" r="3"/><path d="M6 42h30M21 27l-8 9M16 30l-4-2M19 33l-5 2M24 27v7"/></symbol>
+  <symbol id="diamond" viewBox="0 0 48 48"><path d="M12 8h24l8 10-20 24L4 18z"/><path d="M4 18h40M18 8l-4 10 10 24 10-24-4-10M14 18l10-10 10 10"/></symbol>
+  <symbol id="gear" viewBox="0 0 48 48"><circle cx="24" cy="24" r="7"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M9.9 38.1l4.2-4.2M33.9 14.1l4.2-4.2"/><circle cx="24" cy="24" r="14"/></symbol>
+  <symbol id="users" viewBox="0 0 48 48"><circle cx="24" cy="15" r="6"/><circle cx="11" cy="19" r="4.5"/><circle cx="37" cy="19" r="4.5"/><path d="M14 40v-4a10 10 0 0 1 20 0v4M3 38v-2a8 8 0 0 1 11-7.5M45 38v-2a8 8 0 0 0-11-7.5"/></symbol>
+  <symbol id="shield" viewBox="0 0 48 48"><path d="M24 4l16 6v12c0 10-7 18-16 22-9-4-16-12-16-22V10z"/><path d="M16 24l6 6 11-12"/></symbol>
+  <symbol id="target" viewBox="0 0 48 48"><circle cx="22" cy="26" r="18"/><circle cx="22" cy="26" r="11"/><circle cx="22" cy="26" r="4"/><path d="M22 26L40 8M34 8h6v6"/></symbol>
+  <symbol id="eye" viewBox="0 0 48 48"><path d="M3 24s8-14 21-14 21 14 21 14-8 14-21 14S3 24 3 24z"/><circle cx="24" cy="24" r="7"/><circle cx="24" cy="24" r="2" fill="currentColor"/></symbol>
+  <symbol id="bulb" viewBox="0 0 48 48"><path d="M17 30c-3-3-5-6-5-11a12 12 0 0 1 24 0c0 5-2 8-5 11v5H17z"/><path d="M18 40h12M20 44h8M24 2v3M8 8l2 2M40 8l-2 2M4 19h3M41 19h3"/></symbol>
+  <symbol id="chat" viewBox="0 0 48 48"><path d="M6 8h28v20H18l-8 7v-7H6z"/><path d="M38 16h4v18h-4v6l-7-6H20v-4"/><path d="M12 16h16M12 21h11"/></symbol>
+  <symbol id="truck" viewBox="0 0 48 48"><path d="M3 12h26v20H3zM29 18h9l7 8v6H29z"/><circle cx="12" cy="36" r="4"/><circle cx="37" cy="36" r="4"/><path d="M33 22h5l3 4h-8z"/></symbol>
+  <symbol id="globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="19"/><path d="M5 24h38M24 5c6 6 8 12 8 19s-2 13-8 19c-6-6-8-12-8-19s2-13 8-19zM8 14h32M8 34h32"/></symbol>
+  <symbol id="doc" viewBox="0 0 48 48"><path d="M28 4H10v40h28V14z"/><path d="M28 4v10h10M16 24h16M16 30h16M16 36h10"/></symbol>
+  <symbol id="mail" viewBox="0 0 48 48"><path d="M4 10h40v28H4z"/><path d="M4 10l20 16 20-16"/></symbol>
+  <symbol id="phone" viewBox="0 0 48 48"><path d="M14 4l6 10-4 4c2 5 6 9 10 10l4-4 10 6-2 8c-1 3-4 4-7 3C18 37 11 30 7 17c-1-3 0-6 3-7z"/></symbol>
+  <symbol id="pin" viewBox="0 0 48 48"><path d="M24 44S9 29 9 19a15 15 0 0 1 30 0c0 10-15 25-15 25z"/><circle cx="24" cy="19" r="6"/></symbol>
+  <symbol id="clock" viewBox="0 0 48 48"><circle cx="24" cy="24" r="19"/><path d="M24 12v12l8 6"/></symbol>
+  <symbol id="headset" viewBox="0 0 48 48"><path d="M8 28v-6a16 16 0 0 1 32 0v6"/><path d="M4 28h8v12H4zM36 28h8v12h-8z"/><path d="M40 40c0 3-4 5-10 5h-4"/></symbol>
+  <symbol id="upload" viewBox="0 0 48 48"><path d="M28 4H10v40h28V14z"/><path d="M28 4v10h10M24 36V22M18 28l6-6 6 6"/></symbol>
+  <symbol id="send" viewBox="0 0 48 48"><path d="M44 4L4 20l16 6 6 16z"/><path d="M20 26L44 4"/></symbol>
+  <symbol id="ruler" viewBox="0 0 48 48"><path d="M6 32L32 6l10 10-26 26z"/><path d="M13 25l4 4M18 20l3 3M23 15l4 4M28 10l3 3"/></symbol>
+  <symbol id="search" viewBox="0 0 48 48"><circle cx="20" cy="20" r="14"/><path d="M30 30l14 14M14 20l4 4 8-8"/></symbol>
+  <symbol id="award" viewBox="0 0 48 48"><circle cx="24" cy="18" r="13"/><path d="M17 29l-5 15 12-6 12 6-5-15"/><path d="M19 18l4 4 7-8"/></symbol>
+  <symbol id="hardhat" viewBox="0 0 48 48"><path d="M6 32a18 18 0 0 1 36 0"/><path d="M3 32h42v6H3zM20 14v-4h8v4M16 16v10M32 16v10"/></symbol>
+  <symbol id="layers" viewBox="0 0 48 48"><path d="M24 6l20 10-20 10L4 16z"/><path d="M4 24l20 10 20-10M4 32l20 10 20-10"/></symbol>
+  <symbol id="gate" viewBox="0 0 48 48"><path d="M5 44V10M43 44V10M5 12h38"/><path d="M10 44V18M15 44V16M20 44V15M24 44V14M28 44V15M33 44V16M38 44V18"/><path d="M5 20c6-6 13-8 19-8s13 2 19 8"/></symbol>
+  <symbol id="roof" viewBox="0 0 48 48"><path d="M3 26L24 7l21 19"/><path d="M9 24c2 3 4 3 6 0 2 3 4 3 6 0 2 3 4 3 6 0 2 3 4 3 6 0 2 3 4 3 6 0M13 18c2 3 4 3 6 0 2 3 4 3 6 0 2 3 4 3 6 0M9 44V30h30v14"/></symbol>
+  <symbol id="retractable" viewBox="0 0 48 48"><path d="M4 42V22L44 12v30"/><path d="M4 22L44 12M14 32h18M26 26l6 6-6 6"/></symbol>
+  <symbol id="door" viewBox="0 0 48 48"><path d="M10 4h28v40H10z"/><path d="M15 9h18v14H15zM15 28h18v11H15z"/><circle cx="33" cy="25" r="1.6" fill="currentColor"/></symbol>
+  <symbol id="hangar" viewBox="0 0 48 48"><path d="M3 44V26C3 14 12 6 24 6s21 8 21 20v18z"/><path d="M14 44V28h20v16M14 33h20M14 38h20"/></symbol>
+  <symbol id="cold" viewBox="0 0 48 48"><path d="M24 4v40M7 14l34 20M7 34l34-20"/><path d="M19 7l5 4 5-4M19 41l5-4 5 4M5 20l6-1 2-6M43 28l-6 1-2 6M5 28l6 1 2 6M43 20l-6-1-2-6"/></symbol>
+  <symbol id="elevator" viewBox="0 0 48 48"><path d="M9 4h30v40H9z"/><path d="M17 20l7-8 7 8zM17 28l7 8 7-8z" fill="currentColor"/></symbol>
+  <symbol id="stairs" viewBox="0 0 48 48"><path d="M4 44h10V34h10V24h10V14h10V4"/><path d="M4 44V36M14 34V26M24 24V16M34 14V6"/></symbol>
+  <symbol id="garden" viewBox="0 0 48 48"><path d="M24 44V22"/><path d="M24 28c-10 0-15-6-15-14 8 0 15 5 15 14zM24 22c0-9 6-15 15-15 0 9-6 15-15 15z"/><path d="M8 44h32"/></symbol>
+  <symbol id="steel" viewBox="0 0 48 48"><path d="M6 8h36M6 40h36M24 8v32M14 8v4M34 8v4M14 40v-4M34 40v-4"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 13.9c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></symbol>
+</svg>

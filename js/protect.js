@@ -40,12 +40,30 @@
     clearTimeout(shieldTimer);
     if (ms) shieldTimer = setTimeout(function () { root.classList.remove('shielded'); }, ms);
   }
+  function attempt() {
+    document.dispatchEvent(new CustomEvent('zs:attempt'));
+  }
   document.addEventListener('keyup', function (e) {
     if (e.key === 'PrintScreen') {
       shield(1500);
       try { navigator.clipboard.writeText(''); } catch (err) {}
+      attempt();
     }
   });
+
+  // Win+Shift+S (Snipping Tool) and Cmd+Shift+3/4/5 (macOS) start with the system key plus Shift.
+  var metaDown = false;
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Meta' || e.key === 'OS') metaDown = true;
+    if ((metaDown || e.metaKey) && e.shiftKey) {
+      shield(0);
+      attempt();
+      metaDown = false;
+    }
+  }, true);
+  document.addEventListener('keyup', function (e) {
+    if (e.key === 'Meta' || e.key === 'OS') metaDown = false;
+  }, true);
 
   // Screenshot tools (Snipping Tool, Win+Shift+S, Cmd+Shift+4…) take focus from the page first.
   window.addEventListener('blur', function () {
